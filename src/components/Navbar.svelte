@@ -12,7 +12,7 @@
     }
 </script>
 
-<nav class="fixed span-c-all flex flex-row justify-between items-end px-1 pb-1 bg-uc-blue">
+<nav class="fixed span-c-all span-r-top flex flex-row justify-between items-end px-1 pb-1 bg-uc-blue">
     <h1 class="title gray-200">Business Forum 2023</h1>
     <div class="menu-toggle">
         <input id="camera" type="file" accept="image/*" capture="camera" style="display: none;" bind:this={cameraBtn}/>
