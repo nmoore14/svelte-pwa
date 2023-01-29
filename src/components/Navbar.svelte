@@ -13,7 +13,7 @@
 </script>
 
 <nav class="fixed span-c-all flex flex-row justify-between items-end px-1 pb-1 bg-uc-blue">
-    <h1 class="title gray-200">Spring Business Forum 2023</h1>
+    <h1 class="title gray-200">HSB Spring Business Forum 2023</h1>
     <div class="menu-toggle">
         <input id="camera" type="file" accept="image/*" capture="camera" style="display: none;" bind:this={cameraBtn}/>
         <button class="camera-btn" on:click="{showCamera}">
