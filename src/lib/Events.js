@@ -18,6 +18,16 @@ const Events = [
         location: 'Main Hall',
         topic: 'Accounting',
         description: 'Your daily driver Excel can be boring, but let\'s make it exciting!'
+    }, 
+    {
+        id: 2,
+        title: 'Let\'s Love Maths Again!',
+        speaker: 'Hannah Tan',
+        date: 'November 16, 2022',
+        time: '08:30',
+        location: 'Main Hall',
+        topic: 'IT',
+        description: 'Your dinner is ready!'
     },
 ]
 
