@@ -3,6 +3,7 @@
     import Modal, { bind } from 'svelte-simple-modal';
     import Events from './lib/Events.js';
     import Navbar from './components/Navbar.svelte';
+    import Hero from './components/Hero.svelte';
     import Footer from './components/Footer.svelte';
     import MinimalCard from './components/cards/MinimalCard.svelte';
     import TalkInfo from './components/modals/TalkInfo.svelte';
@@ -19,14 +20,15 @@
     }
 </script>
 
-<main class="grid grid-r-3 grid-c-3 w-screen h-screen bg-gray-200">
+<main class="absolute flex flex-col nowrap w-screen h-screen bg-gray-200">
     <Modal show={$modal}
         styleBg={{ backgroundColor: 'rgba(0, 0, 0, 0.75)' }}
         styleWindow={{ boxShadow: '0 2px 5px 0 rgba(0, 0, 0, 0.15)' }}
     >
     </Modal>
     <Navbar/>
-    <div class="flex flex-col justify-start items-start nowrap span-c-center w-full h-full scroll-y content">
+    <Hero />
+    <div class="relative flex flex-col justify-start items-start nowrap w-full h-full scroll-y content">
         {#each forums as forum}
             <MinimalCard forum={forum} on:talk={handleTalk}/>
         {/each}

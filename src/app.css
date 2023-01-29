@@ -54,38 +54,6 @@ html {
     display: none;
 }
 
-.grid {
-    display: grid;
-}
-
-.grid-r-3 {
-    grid-template-rows: 6rem auto 5rem;
-}
-
-.grid-c-3 {
-    grid-template-columns: 1rem auto 1rem;
-}
-
-.span-r-all {
-    grid-row-start: 0;
-    grid-row-end: 3;
-}
-
-.span-r-bottom {
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.span-c-all {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-.span-c-center {
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
 .flex {
     display: flex;
 }
